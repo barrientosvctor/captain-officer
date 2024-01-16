@@ -53,5 +53,8 @@ Mkfile.old
 dkms.conf
 config
 .vs
+.vscode
+
 # Error logs
 *.stackdump
+*.log
