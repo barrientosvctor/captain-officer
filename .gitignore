@@ -52,5 +52,8 @@ Mkfile.old
 dkms.conf
 config.json
 .vs
+.vscode
+
 # Error logs
 *.stackdump
+*.log
