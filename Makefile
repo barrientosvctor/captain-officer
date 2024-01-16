@@ -5,11 +5,9 @@ DESTLIBDIR       = $(PREFIX)/lib
 SRC_DIR       = src
 INCLUDE_DIR   = include
 LIBDIR        = lib
-DOCS_DIR      = docs
 GENCODECS_DIR = gencodecs
 CORE_DIR      = core
 BOT_DIR       = bot/src
-TEST_DIR      = test
 
 SOFLAGS     = -fPIC
 DYFLAGS     = -fPIC 
@@ -63,14 +61,11 @@ voice:
 debug:
 	@ CFLAGS="$(DEBUG_FLAGS)" $(MAKE)
 
-test: debug
-	@ $(MAKE) -C $(TEST_DIR)
 bot: all
 	@ $(MAKE) -C $(BOT_DIR)
 
 clean: 
 	@ $(MAKE) -C $(SRC_DIR) $@
-	@ $(MAKE) -C $(TEST_DIR) $@
 	@ $(MAKE) -C $(EXAMPLES_DIR) $@
 	@ $(MAKE) -C $(GENCODECS_DIR) $@
 

@@ -12,10 +12,10 @@
     "disable_modules": ["WEBSOCKETS", "USER_AGENT"]
   },
   "discord": {
-    "token": "YOUR-BOT-TOKEN",
+    "token": "Nzk5Nzk0NTA5OTQ4Mzg3MzM5.GjiQo6.eKpqGpFyJTwzuY5cB_LFoBNORLpdCyo_-NHTpQ",
     "default_prefix": {
       "enable": false,
-      "prefix": "YOUR-COMMANDS-PREFIX"
+      "prefix": ";"
     }
   }
 }
