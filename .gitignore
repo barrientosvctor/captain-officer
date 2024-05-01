@@ -41,7 +41,6 @@
 *.su
 *.idb
 *.pdb
-bot/src/*.log
 
 # Kernel Module Compile Results
 *.mod*
@@ -62,4 +61,6 @@ config
 # Cmake
 build
 
+# Other
 config.json
+.cache
