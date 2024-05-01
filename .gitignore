@@ -58,3 +58,8 @@ config
 # Error logs
 *.stackdump
 *.log
+
+# Cmake
+build
+
+config.json
