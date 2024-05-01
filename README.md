@@ -6,6 +6,9 @@ A Discord moderation bot written in C.
 - First, you should download the Concord library. The easiest way to do it is
 executing the `compile_concord.sh` script.
 
+This script will download the Concord git submodule located in this project
+and then compile it.
+
 To run the script correctly, you need to have installed **git** and **make** command.
 
 ```sh
