@@ -4,7 +4,8 @@ set(PROJECT_NAME "discord-moderation-bot")
 project(${PROJECT_NAME})
 
 set(SRC_FILES
-	"${CMAKE_CURRENT_SOURCE_DIR}/src/main.c")
+	"${CMAKE_CURRENT_SOURCE_DIR}/src/main.c"
+	"${CMAKE_CURRENT_SOURCE_DIR}/src/args.c")
 
 add_executable(${PROJECT_NAME} ${SRC_FILES})
 target_include_directories(${PROJECT_NAME}
@@ -22,3 +23,4 @@ target_link_libraries(${PROJECT_NAME}
 	PUBLIC "discord"
 	PUBLIC "curl"
 	PUBLIC "pthread")
+target_include_directories(${CMAKE_PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
