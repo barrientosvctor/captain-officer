@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 set(PROJECT_NAME "discord-moderation-bot")
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 project(${PROJECT_NAME})
 
 set(SRC_FILES
